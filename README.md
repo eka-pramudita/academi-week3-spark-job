@@ -44,5 +44,5 @@ then add `.\Google\Cloud SDK\google-cloud-sdk\bin` into your environment variabl
 6. Check the output in BigQuery.
 7. Run workflow template script using this command.
    ```commandline
-    bash workflow_template_script.sh
+   bash workflow_template_script.sh
     ```
