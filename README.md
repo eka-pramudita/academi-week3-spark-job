@@ -24,21 +24,21 @@ in PySpark. PySpark is commonly used to handle big data.
 </div><br />
 
 ### Dataproc
-How do we run PySpark script in Google Cloud? Use Dataproc. Dataproc is a fully managed 
+How do we run PySpark script in Google Cloud? By using Dataproc. Dataproc is a fully managed 
 and highly scalable service for running Apache Spark, Apache Flink, Presto, and 30+ open 
 source tools and frameworks. Get started with Dataproc by going to this [page](https://cloud.google.com/dataproc).
-
-## Installation
-Clone this repository to your preferred directory.
-```
-git clone https://github.com/eka-pramudita/academi-week3-spark-job
-```
 
 ## Dataset
 <div align="center">
 <img src="https://drive.google.com/uc?export=view&id=1ONpDeFjjrwAUQ1b_WRHvrIC3XmI-SBrQ">
 <small>Flight Data</small>
 </div><br />
+
+## Installation
+Clone this repository to your preferred directory.
+```
+git clone https://github.com/eka-pramudita/academi-week3-spark-job
+```
 
 ## Requirements
 - Python 3.6 or above. Check using this command.
