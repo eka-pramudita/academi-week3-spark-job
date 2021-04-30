@@ -130,3 +130,6 @@ dmypy.json
 
 # idea
 .idea/
+
+# ignnore workflow template script
+workflow_template_script.sh

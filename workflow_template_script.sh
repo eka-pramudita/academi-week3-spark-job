@@ -32,7 +32,7 @@ gcloud dataproc workflow-templates set-managed-cluster $TEMPLATE_ID \
 --worker-machine-type n1-standard-2 \
 --worker-boot-disk-size 20 \
 --image-version 1.3 \
---max-idle=5m
+--max-idle=t5m
 
 #add job
 export STEP_ID=add_job

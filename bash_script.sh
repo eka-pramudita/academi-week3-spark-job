@@ -35,6 +35,3 @@ gcloud dataproc jobs submit pyspark pyspark_job.py \
 --region=${REGION} \
 --driver-log-levels root=FATAL \
 --jars=gs://spark-lib/bigquery/spark-bigquery-latest.jar
-
-#delete cluster
-gcloud dataproc clusters delete ${CLUSTER_NAME} --region=${REGION}
