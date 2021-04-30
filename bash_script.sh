@@ -27,7 +27,7 @@ gcloud beta dataproc clusters create ${CLUSTER_NAME} \
 --worker-machine-type n1-standard-2 \
 --worker-boot-disk-size 20 \
 --image-version 1.3 \
---max-idle=5m
+--max-idle=t5m
 
 #submit jobs
 gcloud dataproc jobs submit pyspark pyspark_job.py \
